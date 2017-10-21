@@ -2,13 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header.component';
+import { BoxComponent } from './box.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    BoxComponent
   ],
   imports: [
     BrowserModule
