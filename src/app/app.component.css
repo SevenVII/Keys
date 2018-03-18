@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "typewritter-font";
+  src: url(../aflfont.ttf);
+}
+
+#creator{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#mainquestion {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: red;
+}
+
+#tip {
+  font-size: 12pt;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#keyline {
+  font-size: 15pt;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#key{
+  font-family: "typewritter-font";
+  font-size: 17pt;
+  text-align: center;
+}
