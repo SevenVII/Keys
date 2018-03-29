@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Keys';
-  key= 1234;
+  key= '1AC7';
 }

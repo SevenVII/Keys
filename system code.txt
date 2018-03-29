@@ -1,0 +1,14 @@
+El código constaría de X dígitos
+
+El código se compondría de 36 dígitos: Abecedario inglés en mayúsculas y los números del 0 al 9
+
+1º: Indica el número de celdas a seleccionar. Pueden ser de 3 a 5.
+2º: Indica cuanta variedad hay de dígitos a seleccionar. De 1 a 3.
+3º: Indica el dígito o los dígitos a seleccionar en la tabla. La longitud del código varía en función de la regla Nº2
+4º: Indica la localización de los dígitos.
+
+¿Como programar las reglas?
+1º: 
+2º: 
+3º: 
+4º: 
