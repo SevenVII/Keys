@@ -25,6 +25,26 @@ export class BoxComponent implements OnInit {
         }
       });
     }
+
+    $("td").on("click", function(){
+      if($(this).text()=="") {
+        $(this).text("X");
+      }
+    });
+
+    $('#cell177').on("click", function(){
+      $(this).text("");
+      $(this).css("background-color", "black");
+      alert("¡Black Spirit!");
+    });
+
+    /*
+    let randomNumber = 0;
+
+    randomNumber = Math.floor(Math.random() * 400);
+    */
+
+
   }
 
 }
