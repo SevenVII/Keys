@@ -11,15 +11,15 @@ import * as $ from 'jquery';
 export class BoxComponent implements OnInit {
   public ngOnInit(): void {
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 20; i++) {
       $('#tableCode').append('<tr></tr>');
     }
 
     let cont = 0;
 
-    for (let i = 0; i < 11; i++) {
+    for (let i = 0; i < 21; i++) {
       $('#tableCode tr:nth-child(' + i + ')').each(function(){
-        for (let j = 0; j < 10; j++) {
+        for (let j = 0; j < 20; j++) {
           $(this).append('<td id="cell' + cont + '"></td>');
           cont++;
         }
