@@ -1,6 +1,6 @@
 @font-face {
   font-family: "typewritter-font";
-  src: url(../aflfont.ttf);
+  src: url("../aflfont.ttf");
 }
 
 body{
