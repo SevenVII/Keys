@@ -35,6 +35,7 @@ export class BoxComponent implements OnInit {
     $('#cell177').on("click", function(){
       $(this).text("");
       $(this).css("background-color", "black");
+      $("#key").text("FULL_DP_DR");
       alert("¡Black Spirit!");
     });
 
